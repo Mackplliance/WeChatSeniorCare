@@ -1,0 +1,39 @@
+<view class="interact-container">
+    <view class="info-box">
+        <image src="/pages/img/big.jpg" class="bg-img" mode="aspectFill" />
+        <view class="info-inner">
+            <image src="{{photo}}" mode="aspectFit" />
+            <view class="info-rbox">
+                <text>{{name}}</text>
+                <text>{{content}}</text>
+            </view>
+        </view>
+    </view>
+
+    <view class="mid-box" style="margin-top: -30rpx;">
+        <view class="mid-inner">
+            <view class="mid-lbox">
+                <text class="min-tt">发展基金</text>
+                <view class="money red"style="margin-left:20rpx">$6000</view>
+            </view>
+            <view class="mid-rbox">
+                <view class="btn red-border">提现</view>
+            </view>
+        </view>
+    </view>
+
+    <view class="mid-inner" style="margin-top: 80rpx;height: 200rpx;margin-left:25rpx;text-align:center;">
+        <view style="display: flex;display: inline;">
+        <view class="min-tt">工分</view>
+            <view class="money blue"style="margin-left:20rpx">3500</view>
+        </view>
+
+        <view class="mid-rbox">
+            <view class="btn blue-border">充值</view>
+            <view class="btn red-border">提现</view>
+            <view class="btn yellow yellow-border">转账</view>
+        </view>
+    </view>
+
+    <view class="recommend-btn"style="font-size:35rpx">转发好友</view>
+</view>

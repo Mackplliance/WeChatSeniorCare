@@ -1,0 +1,38 @@
+<!--logs.wxml-->
+<view class="main">
+    <view class="top"></view>
+    <view class="card-group">
+        <view class="card" bindtap="handleCardTap" data-cardid="1">
+            <image src="/pages/img/1.jpg" class="card-image" />
+            <view class="card1">
+                <text class="card-title">金色晚年养老院</text>
+                <text class="card-description">金色晚年养老院于1993年创办,民一间养老院，已领广州市民政局发的：社会福利机构设置</text>
+            </view>
+        </view>
+        <view class="card" bindtap="handleCardTap" data-cardid="2">
+            <image src="/pages/img/2.png" class="card-image" />
+            <view class="card1">
+                <text class="card-title">颐养年养老院</text>
+                <text class="card-description">颐养年养老院坐落在北京市六大城区之一的石景山区，是经北京市石景山区民政局批准设置的社会非盈利性专业养护型养老机构。</text>
+            </view>
+        </view>
+        <view class="card" bindtap="handleCardTap" data-cardid="3">
+            <image src="/pages/img/3.png" class="card-image" />
+            <view class="card1">
+                <text class="card-title">金桥养老院</text>
+                <text class="card-description">金桥养老院是越秀老城区最具规模的养老院之一。四楼有开放式花园。楼层高，通风设备好、设施完善</text>
+            </view>
+        </view>
+        <view class="card" bindtap="handleCardTap" data-cardid="4">
+            <image src="/pages/img/养老院4.png" class="card-image" />
+            <view class="card1">
+                <text class="card-title">日月星养老院</text>
+                <text class="card-description"> 日月星养老院是上海最大的连锁养老院上海恒晖医疗技术发展有限公司投资兴在上海市现有三家，即杨浦区日月。</text>
+            </view>
+        </view>
+        <!--底部-->
+        <view class="footer">
+            <text class="text">您已经到底了~</text>
+        </view>
+    </view>
+</view>

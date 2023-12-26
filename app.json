@@ -1,0 +1,48 @@
+{
+    "pages": [
+      "pages/index/index",
+      "pages/index1/logs",
+      "pages/index3/older",
+      "pages/index2/my"
+    ],
+    "window": {
+      "navigationBarTitleText": "Wechat",
+      "navigationBarBackgroundColor": "#ffffff",
+      "navigationBarTextStyle": "black",
+      "backgroundColor": "#eeeeee",
+      "backgroundTextStyle": "light"
+       },
+    "tabBar": {
+      "list": [
+        {
+          "pagePath": "pages/index/index",
+          "text": "居家养老",
+          "iconPath": "pages/img/居家养老.png",
+           "selectedIconPath": "pages/img/a01.png"
+        },
+        {
+          "pagePath": "pages/index1/logs",
+          "text": "养老院养老",
+          "iconPath": "pages/img/b02.png",
+          "selectedIconPath": "pages/img/a02.png"
+        },
+        {
+          "pagePath": "pages/index3/older",
+          "text": "互动",
+          "iconPath": "pages/img/b03.png",
+          "selectedIconPath": "pages/img/a03.png"
+        },
+        {
+          "pagePath": "pages/index2/my",
+          "text": "我的",
+          "iconPath": "pages/img/我的.png",
+          "selectedIconPath": "pages/img/a04.png"
+        }
+      ]
+    },
+    "networkTimeout": {
+      "request": 10000,
+      "downloadFile": 10000
+    },
+    "debug": true
+  }

@@ -1,0 +1,45 @@
+<view class="container">
+    <view class="ul">
+        <view class="li">
+            <image class="icon" src="/pages/img/a1.png" mode="" />
+            <text class="id">公司介绍</text>
+        </view>
+        <view class="li">
+            <image class="icon" src="/pages/img/a2.png" mode="" />
+            <text class="id">公司介绍</text>
+        </view>
+        <view class="li">
+            <image class="icon" src="/pages/img/a3.png" mode="" />
+            <text class="id">公司介绍</text>
+        </view>
+        <view class="li">
+            <image class="icon" src="/pages/img/a4.png" mode="" />
+            <text class="id">公司介绍</text>
+        </view>
+        <view class="li">
+            <image class="icon" src="/pages/img/a5.png" mode="" />
+            <text class="id">公司介绍</text>
+        </view>
+        <view class="li">
+            <image class="icon" src="/pages/img/a6.png" mode="" />
+            <text class="id">公司介绍</text>
+        </view>
+    </view>
+<!-- 公告 -->
+<view class="box">
+    <image class="notice-img" src="/pages/img/tell.png" mode="" />
+    <view class="list">
+        <text class="notice-item" style="margin-bottom: -10rpx;">为了进一步调动社会力量参与养老服务为了进一步调动社会力量参与养老服务为了进一步调动社会力量参与养老服务
+        </text>
+        <text class="notice-item">
+            关于印发《关于推行养老机构综合...
+        </text>
+        <text class="notice-item">本周的投资机会都在这
+        </text>
+    </view>
+</view>
+
+</view>
+<view class="btn-box">
+    <view class="btn">发表帖子</view>
+</view>
